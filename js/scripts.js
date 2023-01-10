@@ -24,4 +24,11 @@ const number2 = parseInt(prompt("Enter another number:"));
 //window.alert("The multiplication of your numbers equals " + multiply(number1, number2) + ".");
 //window.alert("The division of your second number by your first number equals " + divide(number1, number2) + ".");
 
-window.alert(("The result of adding your numbers is  " + add(number1,number2) + ", ") + ("The result of subtracting your second number from your first is  " + subtract(number1, number2) + ", ") + ("The result of multiplying your numbers is " + multiply(number1, number2) + ", ") + ("The result of diving your second number by your first is " + divide(number1, number2) + "."));
+window.alert(
+  ("The result of adding your numbers is  " + add(number1,number2) + ", ") + 
+  ("The result of subtracting your second number from your first is  " + subtract(number1, number2) + ", ") + 
+  ("The result of multiplying your numbers is " + multiply(number1, number2) + ", ") + 
+  ("The result of diving your second number by your first is " + divide(number1, number2) + ".")
+);
+
+window.alert(number2 + "+" + number1 + "=" + add(number1, number2) + ". " + number2 + "-" + number1 + "=" + subtract(number1, number2) + ". " + number2 + "*" + number1 + "=" + multiply(number1, number2) + ". " + number2 + "/" + number1 + "=" + divide(number1, number2) + ".");
