@@ -1,6 +1,6 @@
 # _Calculator_
 
-#### By _**Sarah Andyshak**_
+#### By _**Sarah Andyshak and Steven Galvan**_
 
 #### A calculator webpage
 
